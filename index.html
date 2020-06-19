@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +13,7 @@
   <title>Formulario</title>
 </head>
 
-<body>
-  <video src="img/video.mp4" id="vidFondo"></video>
-
+<body background="img/home.jpg">
   <div class="contenedor">
     <div class="card rowTitulo">
       <h1>Buscador</h1>
@@ -29,12 +28,21 @@
             <label for="selectCiudad">Ciudad:</label>
             <select name="ciudad" id="selectCiudad">
               <option value="" selected>Elige una ciudad</option>
+              <option value="New York">New York</option>
+              <option value="Orlando">Orlando</option>
+              <option value="Los Angeles">Los Angeles</option>
+              <option value="Houston">Houston</option>
+              <option value="California">California</option>
+              <option value="Miami">Miami</option>
             </select>
           </div>
           <div class="filtroTipo input-field">
             <label for="selecTipo">Tipo:</label><br>
             <select name="tipo" id="selectTipo">
               <option value="" selected>Elige un tipo</option>
+              <option value="Casa">Casa</option>
+              <option value="Condominio">Condominio</option>
+              <option value="Apartamento">Apartamento</option>
             </select>
           </div>
           <div class="filtroPrecio">
@@ -54,7 +62,6 @@
         <div class="divider"></div>
         <button type="button" name="todos" class="btn-flat waves-effect" id="mostrarTodos">Mostrar Todos</button>
       </div>
-
     </div>
   </div>
 
@@ -62,6 +69,6 @@
   <script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
-  <script type="text/javascript" src="js/libreria.js"></script>
+  <script type="text/javascript" src="js/nueva libreria.js"></script>
 </body>
 </html>
